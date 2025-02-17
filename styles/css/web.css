@@ -1,0 +1,82 @@
+
+    .background {
+      background-image: url('/public/img/—Pngtree—the\ internet\ computer\ earth\ data_931042.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      padding: 20px;
+    }
+
+    .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-link {
+      color: #001dfb;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .nav-link:hover {
+      color: #d35400;
+    }
+
+    .content {
+      max-width: 70%;
+      padding: 30px;
+      background: rgba(0, 166, 255, 0.9);
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .code-block {
+      background: #1e1e1e;
+      padding: 12px;
+      border-radius: 8px;
+      text-align: left;
+      white-space: pre-wrap;
+      font-family: "Courier New", monospace;
+      color: #00ff99;
+      font-size: 14px;
+      overflow-x: auto;
+    }
+
+    .navigation-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #0099ff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+      background-color: #0099ff;
+      transform: scale(1.05);
+    }
+ 
